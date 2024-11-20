@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 25px;
+}
+
+:root{
+    --cor1: #E0BF53;
+    --cor2: #DEE053;
+    --cor3: #E0D053;
+    --cor4: #E0AE53;
+    --cor5: #A3E053;
+    --cor6: #E0DFD8;
+}
+
+body, html{
+    height: 100vh;
+    width: 100vw;
+}
+
+header{
+    background-color: var(--cor3);
+    height: 100px;
+    width: 100vw;
+    padding: 10px;
+}
+
+header > h1{
+text-align: left;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header > ul > li{
+    display: inline-block;
+    background-color: var(--cor6);
+    border-radius: 5px 5px 5px 5px;
+    margin-top: 20px;
+    height: 30px;
+    padding: 5px;
+    color: black;
+    text-shadow: 2px 2px 2px rgb(158, 157, 157);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header > ul > li:hover{
+    background-color: #e0dfd8dc;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+main{
+    background-image: url(imagens/varal.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+main > article.caixa1 > div{
+    display: block;
+    width: 250px;
+    height: 70px;
+    background-color: rgb(187, 181, 181);
+    position: absolute;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 2px 2px 6px black, -2px -2px 6px black;
+    margin-top: 100px;
+    margin-left: 20px;
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+main > article.caixa2 > div{
+    display: block;
+    width: 250px;
+    height: 70px;
+    background-color: rgb(187, 181, 181);
+    position: absolute;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 2px 2px 6px black, -2px -2px 6px black;
+    margin-top: 250px;
+    margin-left: 20px;
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+
+
+
+
+
