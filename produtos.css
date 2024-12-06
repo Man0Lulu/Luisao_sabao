@@ -54,38 +54,45 @@ a{
     font-size: 20px;
 }
 
-main{
-    background-image: url(imagens/varal.jpg);
-    background-position: center center;
-    background-size: cover;
-    width: 100vw;
-    height: 100vh;
-    position: relative;
-}
 
 div.container{
-    height: 200px;
-    width: 200px;
-    background-color: var(--cor3);
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    position: absolute;
-    height: 100vh;
-    border: 2px solid rgba(0, 0, 0, 0.856);
+    background-color: #E0BF53;
+    height: 70vh;
+    width: 100vw;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
     align-items: center;
+    border: 2px solid black;
+}
+p{
+    margin-top: 40px;
+    background-color: var(--cor5);
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 5px 5px 5px 5px;
+    height: 30px;
+    padding: 0px 10px 20px 10px;
+    cursor: pointer;
 }
 
-div.item{
-    background-color: #A3E053;
-    border: 1px solid black;
-    height: 50px;
-    width: 100px;
-    text-align: center;
+img.item1{
+    width: 250px;
+    height: 290px;
+    border-radius: 40px 40px 40px 40px;
+}
+
+img.item2{
+    width: 250px;
+    height: 270px;
+    border-radius: 40px 40px 40px 40px;
+}
+
+img.item3{
+    width: 250px;
+    height: 290px;
+    border-radius: 40px 40px 40px 40px;
 }
 
 h1{
