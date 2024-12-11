@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 25px;
+}
+
+:root{
+    --cor1: #E0BF53;
+    --cor2: #DEE053;
+    --cor3: #E0D053;
+    --cor4: #E0AE53;
+    --cor5: #A3E053;
+    --cor6: #E0DFD8;
+}
+
+html, body{
+    height: 100vh;
+    width: 100vw;
+    background-color: grey;
+}
+
+
+header{
+    background-color: var(--cor3);
+    height: 100px;
+    width: 100vw;
+    padding: 10px;
+}
+
+header > h1{
+text-align: left;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header > ul > li{
+    display: inline-block;
+    background-color: var(--cor6);
+    border-radius: 5px 5px 5px 5px;
+    margin-top: 20px;
+    height: 30px;
+    padding: 5px;
+    color: black;
+    text-shadow: 2px 2px 2px rgb(158, 157, 157);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header > ul > li:hover{
+    background-color: #e0dfd8dc;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+
+
+div.container{
+    background-color: #E0BF53;
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+p{
+    margin-top: 40px;
+    background-color: var(--cor5);
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 5px 5px 5px 5px;
+    height: 30px;
+    padding: 0px 10px 20px 10px;
+    cursor: pointer;
+}
+
+img.item1{
+    width: 250px;
+    height: 290px;
+    border-radius: 40px 40px 40px 40px;
+}
+
+img.item2{
+    width: 250px;
+    height: 270px;
+    border-radius: 40px 40px 40px 40px;
+}
+
+img.item3{
+    width: 250px;
+    height: 290px;
+    border-radius: 40px 40px 40px 40px;
+}
+
+img.item4{
+    width: 250px;
+    height: 290px;
+    border-radius: 40px 40px 40px 40px;
+}
+
+img.item5{
+    width: 250px;
+    height: 290px;
+    border-radius: 40px 40px 40px 40px;
+}
+
+img.item6{
+    width: 250px;
+    height: 290px;
+    border-radius: 40px 40px 40px 40px;
+}
+
+img.item7{
+    width: 250px;
+    height: 290px;
+    border-radius: 40px 40px 40px 40px;
+}
+
+h1{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
