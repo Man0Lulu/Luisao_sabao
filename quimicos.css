@@ -22,7 +22,7 @@ html, body{
 
 header{
     background-color: var(--cor3);
-    height: 100px;
+    height: 120px;
     width: 100vw;
     padding: 10px;
 }
@@ -36,9 +36,9 @@ header > ul > li{
     display: inline-block;
     background-color: var(--cor6);
     border-radius: 5px 5px 5px 5px;
-    margin-top: 20px;
+    margin-top: 7px;
     height: 30px;
-    padding: 5px;
+    padding: 5px 10px;
     color: black;
     text-shadow: 2px 2px 2px rgb(158, 157, 157);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -53,8 +53,16 @@ a{
     color: black;
     font-size: 24px;
 }
-
-
+input#form{
+    margin-top: 10px;
+    width: 50vw;
+    border-radius: 5px 5px 5px 5px;
+}
+input#envio{
+    border-radius: 5px 5px 5px 5px;
+    width: 33vw;
+    padding: 1px;
+}
 div.container{
     background-color: #E0BF53;
     height: 70vh;
