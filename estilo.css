@@ -60,6 +60,7 @@ input#envio{
     border-radius: 5px 5px 5px 5px;
     width: 33vw;
     padding: 1px;
+    cursor: pointer;
 }
 main{
     background-image: url(imagens/varal.jpg);
