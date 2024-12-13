@@ -55,12 +55,16 @@ input#form{
     margin-top: 10px;
     width: 50vw;
     border-radius: 5px 5px 5px 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(44, 41, 41);
 }
 input#envio{
     border-radius: 5px 5px 5px 5px;
     width: 33vw;
     padding: 1px;
     cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(44, 41, 41);
 }
 main{
     background-image: url(imagens/varal.jpg);

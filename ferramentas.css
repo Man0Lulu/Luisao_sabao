@@ -57,11 +57,15 @@ input#form{
     margin-top: 10px;
     width: 50vw;
     border-radius: 5px 5px 5px 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(44, 41, 41);
 }
 input#envio{
     border-radius: 5px 5px 5px 5px;
     width: 33vw;
     padding: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(44, 41, 41);
 }
 
 div.container{
@@ -85,6 +89,10 @@ p{
     padding: 0px 10px 20px 10px;
     cursor: pointer;
 }
+
+p:hover{
+    background-color: #91c947;   
+   }
 
 img.item1{
     width: 250px;
