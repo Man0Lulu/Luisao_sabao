@@ -19,6 +19,9 @@ html, body{
     background-color: grey;
 }
 
+main{
+    padding-top: 130px;
+}
 
 header{
     background-color: var(--cor3);
