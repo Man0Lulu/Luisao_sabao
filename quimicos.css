@@ -23,7 +23,11 @@ html, body{
 header{
     background-color: var(--cor3);
     height: 120px;
-    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
     padding: 10px;
 }
 
