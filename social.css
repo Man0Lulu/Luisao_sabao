@@ -16,6 +16,17 @@
 body, html{
     height: 100vh;
     width: 100vw;
+    background-color: var(--cor1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+body > article{
+    background-color: var(--cor6);
+    width: 60vw;
+    height: 100vh;
 }
 
 header{
@@ -26,8 +37,10 @@ header{
 }
 
 header > h1{
-text-align: left;
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    text-shadow: 2px 2px 2px black;
 }
 
 header > ul > li{
@@ -67,50 +80,3 @@ input#envio{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(44, 41, 41);
 }
-main{
-    background-image: url(imagens/varal.jpg);
-    background-position: center center;
-    background-size: cover;
-    width: 100vw;
-    height: 100vh;
-    position: relative;
-}
-
-main > article.caixa1 > div{
-    display: block;
-    width: 250px;
-    height: 70px;
-    background-color: rgb(187, 181, 181);
-    position: absolute;
-    border-radius: 5px 5px 5px 5px;
-    box-shadow: 2px 2px 6px black, -2px -2px 6px black;
-    margin-top: 100px;
-    margin-left: 20px;
-    padding: 10px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-main > article.caixa2 > div{
-    display: block;
-    width: 250px;
-    height: 70px;
-    background-color: rgb(187, 181, 181);
-    position: absolute;
-    border-radius: 5px 5px 5px 5px;
-    box-shadow: 2px 2px 6px black, -2px -2px 6px black;
-    margin-top: 250px;
-    margin-left: 20px;
-    padding: 10px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-h1{
-    color: white;
-    text-shadow: 2px 2px 2px black;
-}
-
-
-
-
-
-
