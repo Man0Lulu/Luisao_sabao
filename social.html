@@ -2,25 +2,38 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="social.css">
-    <title>Web Luísão</title>
+    <title>Redes sociais</title>
 </head>
-    <body>
-        <header>
-            <h1>Luisão do Sabão</h1>
-            <input type="text" id="form">
-            <input type="submit" value="procurar" onclick="envio()" id="envio">
-            <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="produtos.html">Produtos</a></li>
-            <li><a href="social.html">Redes sociais</a></li>
-            </ul>
-        </header>
-        <article>
+<body>
+    <header>
+        <h1>Luisão do Sabão</h1>
+        <input type="text" id="form">
+        <input type="submit" value="pesquisar" onclick="envio()" id="envio">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="produtos.html">Produtos</a></li>
+          <li><a href="social.html">Redes sociais</a></li>
+        </ul>
+    
+       </header>
 
+       <main>
+
+        <article>
+          <div class="container">
+              <img src="imagens/whatsapp.jpg" alt="" class="item1">
+              <p><a href="https://wa.me/556199512003"  target="_blank">Whatsapp</a></p>
+            </div>
+            <div class="container">
+              <img src="imagens/insta.jpg" alt="" class="item2">
+              <p><a href="https://www.instagram.com/luisnascimento_original/?igsh=MTZqMTMxeWhhY3ZtbQ%3D%3D" target="_blank">Instagram</a></p>
+            </div>
         </article>
-        <script src="pesquisa.js"></script>
-    </body>
+
+    
+       </main>
+       <script src="pesquisa.js"></script>
+</body>
 </html>

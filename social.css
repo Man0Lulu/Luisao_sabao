@@ -13,34 +13,29 @@
     --cor6: #E0DFD8;
 }
 
-body, html{
+html, body{
     height: 100vh;
     width: 100vw;
-    background-color: var(--cor1);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
+    background-color: grey;
 }
-
-body > article{
-    background-color: var(--cor6);
-    width: 60vw;
-    height: 100vh;
+main{
+    padding-top: 130px;
 }
 
 header{
     background-color: var(--cor3);
     height: 120px;
-    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
     padding: 10px;
 }
 
 header > h1{
-    text-align: left;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: white;
-    text-shadow: 2px 2px 2px black;
+text-align: left;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 header > ul > li{
@@ -62,7 +57,7 @@ header > ul > li:hover{
 a{
     text-decoration: none;
     color: black;
-    font-size: 20px;
+    font-size: 22px;
 }
 input#form{
     margin-top: 10px;
@@ -73,10 +68,52 @@ input#form{
 }
 input#envio{
     border-radius: 5px 5px 5px 5px;
-    width: 28vw;
+    width: 33vw;
     padding: 1px;
     cursor: pointer;
-    font-size: 25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(44, 41, 41);
+}
+div.container{
+    background-color: #E0BF53;
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+p{
+    margin-top: 40px;
+    background-color: var(--cor5);
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 5px 5px 5px 5px;
+    height: 30px;
+    padding: 0px 10px 20px 10px;
+    cursor: pointer;
+}
+
+p:hover{
+    background-color: #91c947;   
+   }
+
+img.item1{
+    width: 250px;
+    height: 290px;
+    border-radius: 40px 40px 40px 40px;
+    background-color: white;
+}
+
+img.item2{
+    width: 250px;
+    height: 270px;
+    border-radius: 40px 40px 40px 40px;
+}
+
+h1{
+    color: white;
+    text-shadow: 2px 2px 2px black;
 }
