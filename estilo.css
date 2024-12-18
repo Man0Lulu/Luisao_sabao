@@ -93,7 +93,7 @@ main > article.caixa1 > div{
 main > article.caixa2 > div{
     display: block;
     width: 250px;
-    height: 70px;
+    height: 110px;
     background-color: rgb(187, 181, 181);
     position: absolute;
     border-radius: 5px 5px 5px 5px;
@@ -104,6 +104,21 @@ main > article.caixa2 > div{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 5px 5px 5px 5px;
+    margin-top: 10px;
+    margin-left: 80px;
+    height: 20px;
+    width: 130px;
+    padding: 0px 10px 20px 10px;
+    cursor: pointer;
+    background-color: var(--cor5);
+}
+
+p:hover{
+    background-color: #91c947;
+}
 h1{
     color: white;
     text-shadow: 2px 2px 2px black;
